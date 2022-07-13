@@ -2,10 +2,94 @@
 <html>
     <head>
         <title>Introduce Myself</title>
-        <link href="C:\Users\eungj\OneDrive\¹ÙÅÁ È­¸é\Introduce_Myself\Cube.css" type="text/css" rel="stylesheet">
+        <link href="Background.css" type="text/css" rel="stylesheet">
+        <link href="Blocks.css" type="text/css" rel="stylesheet">
+        <link href="Up_side_bar.css" type="text/css" rel="stylesheet">
     </head>
-
     <body>
+        <div class="menu_button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script>
+            let menu_btn = document.querySelector('.menu_button');
+            let menu_clicked = false;
+            menu_btn.addEventListener('click', () => {
+                if(!menu_clicked){
+                    menu_btn.classList.add('rotate');
+                    menu_clicked = true;
+                }else{
+                    menu_btn.classList.remove('rotate');
+                    menu_clicked = false;
+                }
+            });
+        </script>
 
+        <div class="navigation">
+            <ul>
+                <li>Birth</li>
+                <li>Academic background</li>
+                <li>Introducing myself</li>
+                <li>License</li>
+                <li>Project</li>
+                <li>Career</li>
+                <li>Etc(Email, Phone number, ...)</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <div class="block_right"></div>
+            <div class="block_left"></div>
+            <div class="block_top"></div>
+        </div>
+
+        <div class="block_2">
+            <div class="block_2_right"></div>
+            <div class="block_2_left"></div>
+            <div class="block_2_top"></div>
+        </div>
+
+        <div class="block_3">
+            <div class="block_3_right"></div>
+            <div class="block_3_left"></div>
+            <div class="block_3_top"></div>
+        </div>
+
+        <div class="block_4">
+            <div class="block_4_right"></div>
+            <div class="block_4_left"></div>
+            <div class="block_4_top"></div>
+        </div>
+
+        <div class="block_5">
+            <div class="block_5_right"></div>
+            <div class="block_5_left"></div>
+            <div class="block_5_top"></div>
+        </div>
+
+        <div class="block_6">
+            <div class="block_6_right"></div>
+            <div class="block_6_left"></div>
+            <div class="block_6_top"></div>
+        </div>
+
+        <div class="block_7">
+            <div class="block_7_right"></div>
+            <div class="block_7_left"></div>
+            <div class="block_7_top"></div>
+        </div>
+
+        <div class="block_8">
+            <div class="block_8_right"></div>
+            <div class="block_8_left"></div>
+            <div class="block_8_top"></div>
+        </div>
+
+        <div class="block_9">
+            <div class="block_9_right"></div>
+            <div class="block_9_left"></div>
+            <div class="block_9_top"></div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,35 @@
+.menu_button{
+    position: absolute;
+    top: 40px;
+    left: 1475px;
+}
+
+.menu_button span{
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background: black;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+.menu_button.rotate span{
+    transform: rotate(90deg) translateY(-10px);
+}
+
+.menu_button span:nth-child(1){
+    transform: translateY(10px);
+}
+.menu_button.rotate span:nth-child(1){
+    transform: rotate(-90deg);
+}
+
+.menu_button span:nth-child(2){
+    transform: translateY(-10px);
+}
+.menu_button.rotate span:nth-child(2){
+    transform: rotate(90deg) translateY(10px);
+}
+
+.navigation{
+    
+}
