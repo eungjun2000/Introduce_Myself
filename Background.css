@@ -1,3 +1,20 @@
 body{
+    margin-left: 0;
     background-color: bisque;
-}   
+}
+
+#main_background.blur_main{
+    height: 0; width: 0;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    transition: 1s;
+    filter: blur(10px);
+}
+
+@media(min-width: 1450px){
+    #main_background.blur_main{
+        filter: blur(0px);
+    }
+}
