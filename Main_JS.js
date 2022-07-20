@@ -18,3 +18,27 @@ menu_btn.addEventListener('click', () => {
 menu_btn.addEventListener('click', () => {
     blur.classList.toggle('blur_main');
 })
+
+/* Lottie animation */
+var project_file_image_anim = bodymovin.loadAnimation({
+    container: document.querySelector('.project_file'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'Project_file_image.json'
+});
+
+let project_block = document.getElementById("block_3");
+let project_file_updown = document.getElementById("project");
+
+project_block.addEventListener('mouseover', () => {
+    project_block.onmouseover = function(){
+        project_file_updown.style.transform = "translateY(-30px)";
+    }
+    project_file_image_anim.playSegments([0,69], true);
+})
+project_block.addEventListener('mouseout', () => {
+    project_block.onmouseout = function(){
+        project_file_updown.style.transform = "translateY(0)";
+    }
+})

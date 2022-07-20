@@ -74,12 +74,5 @@
         top: -20px;
         justify-content: center;    
         background-color: royalblue;
-        /*animation: anim 0.7s cubic-bezier(200, 100, 200. -300);*/
     }
-    /*
-    @keyframes anim {
-        from{transform: translate(0,-480px);}
-        to{transform: translate(0,-20px);}
-    }
-    */
 }

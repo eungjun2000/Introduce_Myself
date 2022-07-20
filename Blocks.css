@@ -1,15 +1,15 @@
 /*----------------------- block_1 -----------------------*/
 
-.block{
+#block{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     z-index: 4;
     transition: 0.5s;
 }
-.block:hover{transform: translateY(-30px);}
+#block:hover{transform: translateY(-30px);}
 
 .block_left{
     height: 100px;
@@ -41,16 +41,16 @@
 
 /*----------------------- block_2 -----------------------*/
 
-.block_2{
+#block_2{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     z-index: 3;
     transition: 0.5s;
 }
-.block_2:hover{transform: translateY(-30px);}
+#block_2:hover{transform: translateY(-30px);}
 
 .block_2_left{
     height: 100px;
@@ -85,16 +85,16 @@
 
 /*----------------------- block_3 -----------------------*/
 
-.block_3{
+#block_3{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
     z-index: 3;
-    position: absolute;
     transition: 0.5s;
 }
-.block_3:hover{transform: translateY(-30px);}
+#block_3:hover{transform: translateY(-30px);}
 
 .block_3_left{
     height: 100px;
@@ -129,16 +129,16 @@
 
 /*----------------------- block_4 -----------------------*/
 
-.block_4{
+#block_4{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     z-index: 2;
     transition: 0.5s;
 }
-.block_4:hover{transform: translateY(-30px);}
+#block_4:hover{transform: translateY(-30px);}
 
 .block_4_left{
     height: 100px;
@@ -173,16 +173,16 @@
 
 /*----------------------- block_5 -----------------------*/
 
-.block_5{
+#block_5{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     z-index: 2;
     transition: 0.5s;
 }
-.block_5:hover{transform: translateY(-30px);}
+#block_5:hover{transform: translateY(-30px);}
 
 .block_5_left{
     height: 100px;
@@ -217,16 +217,16 @@
 
 /*----------------------- block_6 -----------------------*/
 
-.block_6{
+#block_6{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
     z-index: 1;
-    position: absolute;
     transition: 0.5s;
 }
-.block_6:hover{transform: translateY(-30px);}
+#block_6:hover{transform: translateY(-30px);}
 
 .block_6_left{
     height: 100px;
@@ -261,16 +261,16 @@
 
 /*----------------------- block_7 -----------------------*/
 
-.block_7{
+#block_7{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     z-index: 1;
     transition: 0.5s;
 }
-.block_7:hover{transform: translateY(-30px);}
+#block_7:hover{transform: translateY(-30px);}
 
 .block_7_left{
     height: 100px;
@@ -305,15 +305,15 @@
 
 /*----------------------- block_8 -----------------------*/
 
-.block_8{
+#block_8{
+    position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    position: absolute;
     transition: 0.5s;
 }
-.block_8:hover{transform: translateY(-30px);}
+#block_8:hover{transform: translateY(-30px);}
 
 .block_8_left{
     height: 100px;
