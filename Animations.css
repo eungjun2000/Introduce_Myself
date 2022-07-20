@@ -1,0 +1,14 @@
+#project{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 0;
+    left: 100px; right: 0;
+    margin: auto;
+    z-index: 7;
+    transition: 0.5s;
+}
+.project_file{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+}
