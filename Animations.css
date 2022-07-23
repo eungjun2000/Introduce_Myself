@@ -1,3 +1,18 @@
+#academic_background{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 430px;
+    left: 0; right: 160px;
+    margin: auto;
+    z-index: 0;
+    transition: 0.5s;
+}
+.academic_background_span{
+    position: absolute;
+    height: 163px;
+    width: 163px;
+}
+
 #project{
     position: absolute;
     height: 0; width: 0;
@@ -7,7 +22,7 @@
     z-index: 7;
     transition: 0.5s;
 }
-.project_file{
+.project_span{
     position: absolute;
     height: 130px;
     width: 130px;
