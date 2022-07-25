@@ -1,3 +1,18 @@
+#birth{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 590px;
+    left: 0; right: 500px;
+    margin: auto;
+    z-index: 7;
+    transition: 0.5s;
+}
+.birth_span{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
 #academic_background{
     position: absolute;
     height: 0; width: 0;

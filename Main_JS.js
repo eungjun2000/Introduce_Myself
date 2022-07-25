@@ -22,8 +22,24 @@ menu_btn.addEventListener('click', () => {
 /*------------------------------- Lottie animation -------------------------------*/
 
 /* Birth part */
+var birth_animation = bodymovin.loadAnimation({
+    container: document.querySelector('.birth_span'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'Birth_anim.json'
+});
 
-/* Code */
+let birth_block = document.getElementById("block_6");
+let birth_updown = document.getElementById("birth");
+
+birth_block.onmouseover = function(){
+    birth_updown.style.transform = "translateY(-30px)";
+    //project_animation.playSegments([0,69], true);
+}
+birth_block.onmouseout = function(){
+    birth_updown.style.transform = "translateY(0)";
+}
 
 /* Project part */
 var project_animation = bodymovin.loadAnimation({
