@@ -28,11 +28,26 @@
     width: 163px;
 }
 
+#license{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 180px;
+    left: 210px; right: 0;
+    margin: auto;
+    z-index: 7;
+    transition: 0.5s;
+}
+.license_span{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+}
+
 #project{
     position: absolute;
     height: 0; width: 0;
-    top: 0; bottom: 0;
-    left: 100px; right: 0;
+    top: 0; bottom: 10px;
+    left: 100px; right: 15px;
     margin: auto;
     z-index: 7;
     transition: 0.5s;
