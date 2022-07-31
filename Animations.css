@@ -1,16 +1,31 @@
+#start{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 175px;
+    left: 0; right: 525px;
+    margin: auto;
+    z-index: 8;
+    transition: 0.5s;
+}
+.start_span{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
 #birth{
     position: absolute;
     height: 0; width: 0;
-    top: 0; bottom: 590px;
-    left: 0; right: 500px;
+    top: 0; bottom: 500px;
+    left: 0; right: 450px;
     margin: auto;
     z-index: 7;
     transition: 0.5s;
 }
 .birth_span{
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 #academic_background{
@@ -56,4 +71,19 @@
     position: absolute;
     height: 130px;
     width: 130px;
+}
+
+#career{
+    position: absolute;
+    height: 0; width: 0;
+    top: 90px; bottom: 0;
+    left: 0; right: 170px;
+    margin: auto;
+    z-index: 7;
+    transition: 0.5s;
+}
+.career_span{
+    position: absolute;
+    height: 173px;
+    width: 173px;
 }

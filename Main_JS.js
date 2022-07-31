@@ -21,6 +21,25 @@ menu_btn.addEventListener('click', () => {
 
 /*------------------------------- Lottie animation -------------------------------*/
 
+/*------------------- Start part -------------------*/
+var start_animation = bodymovin.loadAnimation({
+    container: document.querySelector('.start_span'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: true,
+    path: 'Start_anim.json'
+})
+
+let start_block = document.getElementById("block_5");
+let start_updown = document.getElementById("start");
+
+start_block.onmouseover = function(){
+    start_updown.style.transform = "translateY(-30px)";
+}
+start_block.onmouseout = function(){
+    start_updown.style.transform = "translateY(0)";
+}
+
 /*------------------- Birth part -------------------*/
 var birth_animation = bodymovin.loadAnimation({
     container: document.querySelector('.birth_span'),
@@ -71,6 +90,7 @@ academic_background_block.onmouseout = function(){
 }
 
 /*------------------ Introducing myself part ------------------*/
+/*
 var introducing_myself_animation = bodymovin.loadAnimation({
     container: document.querySelector('.introducing_myself_span'),
     renderer: 'svg',
@@ -82,7 +102,6 @@ var introducing_myself_animation = bodymovin.loadAnimation({
 let introducing_myself_block = document.getElementById("block_7");
 let introducing_myself_updown = document.getElementById("introducing_myself");
 
-/* Input Event code 
 introducing_myself_block.onmouseover = function(){
     introducing_myself_updown.transform = "translate(-30px)";
     introducing_myself_animation.playSegments([0,0], true);
@@ -135,22 +154,44 @@ project_block.onmouseout = function(){
 
 /*------------------- Career part --------------------*/
 var career_animation = bodymovin.loadAnimation({
-    conatiner: document.querySelector('.career_span'),
+    container: document.querySelector('.career_span'),
     renderer: 'svg',
     loop: false,
-    autoplay: true,
-    //path : 'Career_anim.json'
+    autoplay: false,
+    path : 'Career_anim.json'
 })
 
 let career_block = document.getElementById("block");
 let career_updown = document.getElementById("career");
 
-/* Input Event code
 career_block.onmouseover = function(){
     career_updown.style.transform = "translateY(-30px)";
-    career_animation.playSegments([0,0], true);
+    career_animation.playSegments([0,130], true);
 }
 career_block.onmouseout = function(){
     career_updown.style.transform = "translateY(0)";
-    career_animation.playSegments([0,0], true);
-}*/
+    career_animation.playSegments([20,0], true);
+}
+
+/*------------------- Etc part -------------------*/
+/*
+var etc_animation = bodymovin.loadAnimation({
+    container: document.querySelector('.etc_span'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: true,
+    path: 'Etc_anim.json'
+})
+
+let etc_block = document.getElementById("block_2");
+let etc_updown = document.getElementById("etc");
+
+etc_block.onmouseover = function(){
+    etc_updown.style.transform = "translateY(-30px)";
+    etc_animation.playSegments([0,0], true);
+}
+etc_block.onmouseout = function(){
+    etc_updown.style.transform = "translateY(0)";
+    etc_animation.playSegments([0,0], true);
+}
+*/
