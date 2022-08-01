@@ -19,7 +19,7 @@ menu_btn.addEventListener('click', () => {
     blur.classList.toggle('blur_main');
 })
 
-/*------------------------------- Lottie animation -------------------------------*/
+/*----------------------------- Lottie animation -----------------------------*/
 
 /*------------------- Start part -------------------*/
 var start_animation = bodymovin.loadAnimation({
@@ -174,12 +174,11 @@ career_block.onmouseout = function(){
 }
 
 /*------------------- Etc part -------------------*/
-/*
 var etc_animation = bodymovin.loadAnimation({
     container: document.querySelector('.etc_span'),
     renderer: 'svg',
     loop: false,
-    autoplay: true,
+    autoplay: false,
     path: 'Etc_anim.json'
 })
 
@@ -188,10 +187,9 @@ let etc_updown = document.getElementById("etc");
 
 etc_block.onmouseover = function(){
     etc_updown.style.transform = "translateY(-30px)";
-    etc_animation.playSegments([0,0], true);
+    etc_animation.playSegments([0,270], true);
 }
 etc_block.onmouseout = function(){
     etc_updown.style.transform = "translateY(0)";
-    etc_animation.playSegments([0,0], true);
+    etc_animation.playSegments([100,20], true);
 }
-*/
