@@ -4,7 +4,7 @@
     top: 0; bottom: 145px;
     left: 0; right: 510px;
     margin: auto;
-    z-index: 8;
+    z-index: 5;
     transition: 0.5s;
 }
 .start_span{
@@ -19,7 +19,7 @@
     top: 0; bottom: 500px;
     left: 0; right: 450px;
     margin: auto;
-    z-index: 7;
+    z-index: 5;
     transition: 0.5s;
 }
 .birth_span{
@@ -43,13 +43,28 @@
     width: 163px;
 }
 
+#introducing_myself{
+    position: absolute;
+    height: 0; width: 0;
+    top: 0; bottom: 280px;
+    left: 150px; right: 15px;
+    margin: auto;
+    z-index: 6;
+    transition: 0.5s;
+}
+.introducing_myself_span{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+}
+
 #license{
     position: absolute;
     height: 0; width: 0;
     top: 0; bottom: 180px;
     left: 210px; right: 0;
     margin: auto;
-    z-index: 7;
+    z-index: 6;
     transition: 0.5s;
 }
 .license_span{
@@ -64,7 +79,7 @@
     top: 0; bottom: 10px;
     left: 100px; right: 15px;
     margin: auto;
-    z-index: 7;
+    z-index: 6;
     transition: 0.5s;
 }
 .project_span{
@@ -94,7 +109,7 @@
     top: 0; bottom: 35px;
     left: 0; right: 365px;
     margin: auto;
-    z-index: 9;
+    z-index: 6;
     transition: 0.5s;
 }
 .etc_span{

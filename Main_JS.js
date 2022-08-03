@@ -28,7 +28,7 @@ var start_animation = bodymovin.loadAnimation({
     loop: false,
     autoplay: true,
     path: 'Start_anim.json'
-})
+});
 
 let start_block = document.getElementById("block_5");
 let start_updown = document.getElementById("start");
@@ -90,26 +90,25 @@ academic_background_block.onmouseout = function(){
 }
 
 /*------------------ Introducing myself part ------------------*/
-/*
 var introducing_myself_animation = bodymovin.loadAnimation({
     container: document.querySelector('.introducing_myself_span'),
     renderer: 'svg',
     loop: false,
-    autoplay: true,
-    //path: 'Introducing_anim.json'
-})
+    autoplay: false,
+    path: 'Introducing_myself_anim.json'
+});
 
 let introducing_myself_block = document.getElementById("block_7");
 let introducing_myself_updown = document.getElementById("introducing_myself");
 
 introducing_myself_block.onmouseover = function(){
-    introducing_myself_updown.transform = "translate(-30px)";
-    introducing_myself_animation.playSegments([0,0], true);
+    introducing_myself_updown.style.transform = "translateY(-30px)";
+    introducing_myself_animation.playSegments([0,490], true);
 }
-introducing_myself_animation.onmouseout = function(){
-    introducing_myself_updown.transform = "translate(0)";
-    introducing_myself_animation.playSegments([0,0], true);
-}*/
+introducing_myself_block.onmouseout = function(){
+    introducing_myself_updown.style.transform = "translateY(0)";
+    introducing_myself_animation.playSegments([100,0], true);
+}
 
 /*------------------- License part -------------------*/
 var license_animation = bodymovin.loadAnimation({
@@ -159,7 +158,7 @@ var career_animation = bodymovin.loadAnimation({
     loop: false,
     autoplay: false,
     path : 'Career_anim.json'
-})
+});
 
 let career_block = document.getElementById("block");
 let career_updown = document.getElementById("career");
@@ -180,7 +179,7 @@ var etc_animation = bodymovin.loadAnimation({
     loop: false,
     autoplay: false,
     path: 'Etc_anim.json'
-})
+});
 
 let etc_block = document.getElementById("block_2");
 let etc_updown = document.getElementById("etc");
